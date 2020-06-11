@@ -18,14 +18,14 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-package ratelimit // import "go.uber.org/ratelimit"
+package ratelimit // import "github.com/thebitmonk/ratelimit"
 
 import (
 	"sync/atomic"
 	"time"
 	"unsafe"
 
-	"go.uber.org/ratelimit/internal/clock"
+	"github.com/thebitmonk/ratelimit/internal/clock"
 )
 
 // Note: This file is inspired by:

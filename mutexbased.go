@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"go.uber.org/ratelimit/internal/clock"
+	"github.com/thebitmonk/ratelimit/internal/clock"
 )
 
 type mutexLimiter struct {

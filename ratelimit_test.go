@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
+	"github.com/thebitmonk/ratelimit"
+	"github.com/thebitmonk/ratelimit/internal/clock"
 	"go.uber.org/atomic"
-	"go.uber.org/ratelimit"
-	"go.uber.org/ratelimit/internal/clock"
 )
 
 func ExampleRatelimit() {
